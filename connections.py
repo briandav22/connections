@@ -3,7 +3,6 @@ import requests
 from scrut_api import ReportAPI, Requester
 
 
-#gather data from microsoft, and convert it to JSON. 
 
 
 scrutinizer_requester = Requester(
@@ -12,7 +11,7 @@ scrutinizer_requester = Requester(
 )
 
 
-#simple way of remove all duplicate IP Adddresses from the multiple lists. 
+
 
 report_params = ReportAPI()
 report_params.report_options(reportTypeLang="connections")
